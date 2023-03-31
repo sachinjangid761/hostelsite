@@ -1,0 +1,614 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://unpkg.com/aos@2.3.1/dist/aos.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(221, 221, 221, 0.5333333333);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.t {
+  font-size: 45px;
+  font-weight: bold;
+  color: #235784;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h {
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(165, 122, 42);
+  font-weight: bold;
+}
+
+.bg-color {
+  background-color: white !important;
+}
+.bg-color ul li {
+  margin: 10px;
+}
+.bg-color ul li a {
+  color: rgba(0, 0, 0, 0.751) !important;
+  font-size: 22px !important;
+}
+.bg-color ul li a:hover {
+  color: black !important;
+  border-bottom: solid !important;
+}
+.bg-color ul li button {
+  background-color: #235784;
+  color: white;
+  border: none;
+  width: auto;
+  font-size: 23px;
+  border-radius: 5px;
+  color: white !important;
+}
+
+.box {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+
+.box-1 {
+  width: 60%;
+  padding: 3%;
+  float: left;
+}
+.box-1 h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+}
+.box-1 .box-3 {
+  height: 100px;
+  width: 0.5%;
+  background-color: rgba(165, 108, 42, 0.585);
+  margin-top: 30px;
+  float: left;
+}
+.box-1 p {
+  margin-left: 2%;
+  margin-top: 23px;
+  font-size: 28px;
+}
+.box-1 .days .day {
+  width: 210px;
+  overflow: hidden;
+  float: left;
+  height: 160px;
+  text-align: center;
+  margin-left: 4px;
+  border-radius: 3px;
+}
+.box-1 .days .day span {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.73);
+}
+.box-1 .days .day input {
+  background-color: #235784;
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+}
+.box-1 .days .day select {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #235784;
+  font-size: 50px;
+}
+
+.box-2 {
+  width: 40%;
+  overflow: hidden;
+}
+.box-2 button {
+  position: absolute;
+  top: 530px;
+  width: 210px;
+  height: 120px;
+  color: white;
+  background-color: rgba(0, 255, 255, 0.742);
+  border: none;
+  border-radius: 5px;
+  font-size: 40px;
+}
+
+.rooms {
+  color: #235784;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.card {
+  border: none;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.card h3 {
+  padding: 4%;
+}
+.card p span {
+  margin-left: 10%;
+  font-size: 25px;
+  color: rgba(0, 255, 255, 0.636);
+}
+.card p span a {
+  text-decoration: none;
+  color: rgba(0, 255, 255, 0.726);
+}
+
+.card-color {
+  background-color: #235784;
+  color: white;
+}
+.card-color h2 {
+  padding: 2%;
+  text-align: center;
+  font-size: 40px;
+}
+.card-color p {
+  font-size: 24px;
+  margin-left: 12%;
+}
+.card-color .leteral-line {
+  color: white;
+  width: 4px;
+  background-color: white;
+  height: 170px;
+  margin-left: 8%;
+  float: left;
+}
+.card-color .aboutroom {
+  float: left;
+  margin-top: -170px;
+}
+.card-color button {
+  width: 55%;
+  font-size: 30px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 12%;
+  background-color: rgba(9, 206, 206, 0.934);
+}
+
+.m-top {
+  margin-top: 60px;
+}
+
+.m-top-10 {
+  margin-top: 10px;
+}
+
+.text-dec-n {
+  text-decoration: none;
+}
+
+.left-f {
+  float: left;
+}
+
+.right-f {
+  float: right;
+}
+
+.f-size-10 {
+  font-size: 10px;
+}
+
+.f-size-20 {
+  font-size: 20px;
+}
+
+.f-size-22 {
+  font-size: 22px;
+}
+
+.f-size-25 {
+  font-size: 25px;
+}
+
+.f-size-30 {
+  font-size: 30px;
+}
+
+.f-size-35 {
+  font-size: 35px;
+}
+
+.f-size-40 {
+  font-size: 40px;
+}
+
+.m-left-3 {
+  margin-left: 3%;
+}
+
+.m-left-5 {
+  margin-left: 5%;
+}
+
+.m-left-8 {
+  margin-left: 8%;
+}
+
+.m-left-13 {
+  margin-left: 13%;
+}
+
+.t-a-c {
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.service {
+  width: 35%;
+  height: 100px;
+  display: inline-block;
+  padding: 2%;
+  box-shadow: 0px 0px 5px;
+  border-radius: 5px;
+}
+.service i {
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  background-color: #235784;
+  padding: 10%;
+  color: white;
+  border-radius: 5px;
+  float: left;
+}
+.service a {
+  text-decoration: none;
+}
+
+.book {
+  width: 24%;
+  height: auto;
+  margin-left: 8%;
+  font-size: 30px;
+  border: none;
+  color: white;
+  background-color: #235784;
+  border-radius: 5px;
+}
+
+.moreabout {
+  margin-left: 8%;
+  text-decoration: none;
+  color: #235784;
+  font-size: 25px;
+}
+
+.location {
+  margin-left: 328px;
+  margin-top: -102px;
+}
+
+.lagege {
+  margin-top: 15px;
+}
+
+.parking {
+  margin-left: 328px;
+  margin-top: -100px;
+}
+
+.recomendation {
+  padding: 2%;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding-left: 20%;
+}
+.recomendation p {
+  font-size: 25px;
+}
+.recomendation img {
+  height: 50px;
+}
+
+.yellow {
+  color: rgb(255, 157, 0);
+}
+
+.carousel-item img {
+  border-radius: 13px;
+  margin: 2%;
+}
+.carousel-item .slider-div {
+  padding-left: 5%;
+  padding-top: 40px;
+}
+.carousel-item .slider-div h1 {
+  font-size: 50px;
+}
+.carousel-item .slider-div p {
+  font-size: 30px;
+}
+.carousel-item .slider-div h3 {
+  font-weight: bold;
+}
+
+.card-sutablity h2 {
+  padding-left: 5%;
+  font-size: 50px;
+}
+.card-sutablity p {
+  padding-left: 5%;
+  font-size: 25px;
+}
+.card-sutablity .card-parent {
+  width: 60%;
+  height: 160px;
+  margin-left: 5%;
+  margin-top: 15px;
+  background-color: rgb(248, 245, 245);
+  border-radius: 13px;
+}
+.card-sutablity .card-parent i {
+  width: 24%;
+  height: 70%;
+  margin: 5%;
+  font-size: 50px;
+  background-color: #235784;
+  padding: 5%;
+  color: white;
+  border-radius: 5px;
+  float: left;
+}
+.card-sutablity .card-parent span {
+  font-size: 23px;
+}
+
+.card-rooming {
+  width: 100%;
+  height: 100%;
+}
+.card-rooming img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-over, .card-out {
+  width: 300px;
+  background-color: rgba(248, 245, 245, 0.638);
+  border-radius: 14px;
+  padding: 5%;
+}
+
+.card-over {
+  left: 50%;
+}
+.card-over img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  float: left;
+}
+
+.card-out {
+  left: 2%;
+  top: 60%;
+}
+.card-out button {
+  width: 75%;
+  font-size: 25px;
+  color: white;
+  background-color: #235784;
+  border: none;
+  border-radius: 5px;
+}
+
+h1 {
+  font-weight: bold;
+}
+h1 .photos button {
+  float: right;
+  margin-right: 10%;
+  color: white;
+  background-color: #235784;
+  border: none;
+  border-radius: 13px;
+  width: 24%;
+}
+
+.footer-color {
+  background-color: #235784;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .box-2 {
+    display: none;
+  }
+  .service {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+  .carousel-item {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .carousel-item img {
+    width: 100% !important;
+  }
+}
+.ac {
+  border-bottom: solid;
+}
+
+.pad-1 {
+  padding: 1%;
+}
+
+.pad-2 {
+  padding: 2%;
+}
+
+.pad-3 {
+  padding: 2%;
+}
+
+.pad-4 {
+  padding: 4%;
+}
+
+.pad-5 {
+  padding: 5%;
+}
+
+.pad-6 {
+  padding: 6%;
+}
+
+.pad-7 {
+  padding: 7%;
+}
+
+.button {
+  width: 35%;
+  height: auto;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #235784;
+  color: white;
+}
+
+.form-control input {
+  width: 40%;
+  height: auto;
+  padding: 2%;
+  margin-left: 5%;
+  border: solid rgba(0, 0, 0, 0.379);
+  border-radius: 4px;
+  font-size: 20px;
+}
+.form-control textarea {
+  width: 85%;
+  margin-left: 5%;
+  padding: 4%;
+  height: 50%;
+  font-size: 22px;
+  border: solid rgba(0, 0, 0, 0.379);
+  border-radius: 5px;
+}
+.form-control .btn {
+  width: 35%;
+  border: none;
+  color: white;
+  background-color: #235784;
+  margin-left: 5%;
+  font-size: 30px;
+}
+
+.card-details {
+  height: 200px;
+  margin-top: 20px;
+}
+.card-details summary {
+  font-size: 25px;
+}
+.card-details p {
+  font-size: 22px;
+}
+
+.bg-a {
+  background-color: #235784;
+}
+.bg-a .question {
+  color: rgb(246, 244, 244);
+  background-color: rgb(106, 143, 143);
+  border: none;
+  width: 35%;
+  font-size: 22px;
+  margin-left: 5%;
+}
+
+.roomdiv {
+  margin-left: 30%;
+  position: absolute;
+  padding: 5%;
+  width: 40%;
+}
+
+.roomdiv-2 {
+  margin-left: 70%;
+  position: absolute;
+  padding: 5%;
+}
+
+.booknow {
+  width: 80%;
+  font-size: 25px;
+  color: white;
+  background-color: #235784;
+  border: none;
+  border-radius: 5px;
+}
+
+.seemore {
+  width: 20%;
+  font-size: 40px;
+  margin-left: 5%;
+  color: white;
+  background-color: #235784;
+  border: none;
+  border-radius: 5px;
+}
+
+.m-top-50 {
+  margin-top: 50px;
+}
+
+.card {
+  overflow: hidden;
+}
+.card img:hover {
+  scale: 1.1;
+  transition: 1s;
+  position: relative;
+}
+.card img:hover .img-hover {
+  display: block;
+  position: absolute;
+}
+
+.img-hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(35, 87, 132, 0.6);
+  display: none;
+}/*# sourceMappingURL=style.css.map */
