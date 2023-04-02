@@ -149,10 +149,10 @@ body{
     p{
     span{margin-left: 10%;
     font-size: 25px;
-color: rgba(0, 255, 255, 0.636);
+color: rgb(165, 122, 42);
 a{
     text-decoration: none;
-    color: rgba(0, 255, 255, 0.726);
+    color: rgb(165, 122, 42);
 }
 }
 
@@ -400,7 +400,7 @@ h1{
     }
 }
 .footer-color{
-    background-color: $color_by_header;
+    background-color: white;
 }
 iframe{
     width: 100%;
