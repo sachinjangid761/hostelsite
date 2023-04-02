@@ -273,8 +273,6 @@ body {
 }
 .service i {
   font-size: 30px;
-  width: 70px;
-  height: 70px;
   background-color: #235784;
   padding: 10%;
   color: white;
@@ -362,7 +360,7 @@ body {
   font-size: 25px;
 }
 .card-sutablity .card-parent {
-  width: 60%;
+  width: 90%;
   height: 160px;
   margin-left: 5%;
   margin-top: 15px;
@@ -370,15 +368,13 @@ body {
   border-radius: 13px;
 }
 .card-sutablity .card-parent i {
-  width: 24%;
-  height: 70%;
   margin: 5%;
   font-size: 50px;
   background-color: #235784;
-  padding: 5%;
   color: white;
   border-radius: 5px;
   float: left;
+  padding: 5%;
 }
 .card-sutablity .card-parent span {
   font-size: 23px;
@@ -466,34 +462,6 @@ iframe {
 }
 .ac {
   border-bottom: solid;
-}
-
-.pad-1 {
-  padding: 1%;
-}
-
-.pad-2 {
-  padding: 2%;
-}
-
-.pad-3 {
-  padding: 2%;
-}
-
-.pad-4 {
-  padding: 4%;
-}
-
-.pad-5 {
-  padding: 5%;
-}
-
-.pad-6 {
-  padding: 6%;
-}
-
-.pad-7 {
-  padding: 7%;
 }
 
 .button {
@@ -611,4 +579,32 @@ iframe {
   position: absolute;
   background-color: rgba(35, 87, 132, 0.6);
   display: none;
+}
+
+.pad-1 {
+  padding: 1%;
+}
+
+.pad-2 {
+  padding: 2%;
+}
+
+.pad-3 {
+  padding: 2%;
+}
+
+.pad-4 {
+  padding: 4%;
+}
+
+.pad-5 {
+  padding: 5%;
+}
+
+.pad-6 {
+  padding: 6%;
+}
+
+.pad-7 {
+  padding: 7%;
 }/*# sourceMappingURL=style.css.map */

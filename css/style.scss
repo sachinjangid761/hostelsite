@@ -239,8 +239,8 @@ a{
     border-radius: 5px;
     i{
         font-size: 30px;
-        width: 70px;
-        height: 70px;
+        // width: 70px;
+        // height: 70px;
         background-color: $color_by_header;
         padding: 10%;
         color: white;
@@ -325,22 +325,25 @@ a{
         font-size: 25px;
     }
     .card-parent{
-        width: 60%;
+        width: 90%;
         height: 160px;
         margin-left: 5%;
         margin-top: 15px;
         background-color: rgb(248, 245, 245);
         border-radius: 13px;
         i{
-            width: 24%;
-            height: 70%;
+            // width: 24%;
+            // height: 70%;
             margin: 5%;
             font-size: 50px;
             background-color: $color_by_header;
-            padding: 5%;
+            // padding: auto;
             color: white;
             border-radius: 5px;
             float: left;
+            padding: 5%;
+            // margin-left: auto;
+            // margin-right: auto;
         }
         span{
             font-size: 23px;
@@ -428,13 +431,7 @@ iframe{
 .ac{
     border-bottom: solid;
 }
-.pad-1{padding: 1%;}
-.pad-2{padding: 2%;}
-.pad-3{padding: 2%;}
-.pad-4{padding: 4%;}
-.pad-5{padding: 5%;}
-.pad-6{padding: 6%;}
-.pad-7{padding: 7%;}
+
 .button{
     width: 35%;
     height: auto;
@@ -543,4 +540,11 @@ iframe{
     background-color: #23578499;
     display: none;
 }
+.pad-1{padding: 1%;}
+.pad-2{padding: 2%;}
+.pad-3{padding: 2%;}
+.pad-4{padding: 4%;}
+.pad-5{padding: 5%;}
+.pad-6{padding: 6%;}
+.pad-7{padding: 7%;}
 
